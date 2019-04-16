@@ -12,6 +12,10 @@
 		BC46C26822416B9C00151AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC46C26622416B9C00151AAA /* Main.storyboard */; };
 		BC46C26A22416B9D00151AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC46C26922416B9D00151AAA /* Assets.xcassets */; };
 		BC46C26D22416B9D00151AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC46C26B22416B9D00151AAA /* LaunchScreen.storyboard */; };
+		BC46C27522416F9300151AAA /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46C27422416F9300151AAA /* EffectsViewController.swift */; };
+		BC46C27722416F9F00151AAA /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46C27622416F9F00151AAA /* FinalViewController.swift */; };
+		BC46C27B2241D65F00151AAA /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46C27A2241D65F00151AAA /* FilterManager.swift */; };
+		BCC99C9D224965D1004A3E24 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC99C9C224965D1004A3E24 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		BC46C26922416B9D00151AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC46C26C22416B9D00151AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC46C26E22416B9D00151AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC46C27422416F9300151AAA /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		BC46C27622416F9F00151AAA /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		BC46C27A2241D65F00151AAA /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		BCC99C9C224965D1004A3E24 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				BC46C26222416B9C00151AAA /* AppDelegate.swift */,
 				BC46C26422416B9C00151AAA /* ViewController.swift */,
+				BC46C27A2241D65F00151AAA /* FilterManager.swift */,
 				BC46C26622416B9C00151AAA /* Main.storyboard */,
+				BC46C27422416F9300151AAA /* EffectsViewController.swift */,
+				BCC99C9C224965D1004A3E24 /* CollectionViewCell.swift */,
+				BC46C27622416F9F00151AAA /* FinalViewController.swift */,
 				BC46C26922416B9D00151AAA /* Assets.xcassets */,
 				BC46C26B22416B9D00151AAA /* LaunchScreen.storyboard */,
 				BC46C26E22416B9D00151AAA /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC46C26522416B9C00151AAA /* ViewController.swift in Sources */,
+				BC46C27722416F9F00151AAA /* FinalViewController.swift in Sources */,
+				BCC99C9D224965D1004A3E24 /* CollectionViewCell.swift in Sources */,
 				BC46C26322416B9C00151AAA /* AppDelegate.swift in Sources */,
+				BC46C27522416F9300151AAA /* EffectsViewController.swift in Sources */,
+				BC46C27B2241D65F00151AAA /* FilterManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fotoRoid.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fotoRoid.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
